@@ -17,7 +17,7 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: "/xianghebao.github.io/",
+  base: "/xianghebao.github.io/vue-project/",
   build:{
     outDir: "docs"
   }
